@@ -1,5 +1,4 @@
 .footer {
-    
     display: grid;
     align-items: center;
     padding : 25px;
@@ -10,6 +9,5 @@
     font-style: italic;
     font-size: large;
     color: white;
-
 }
 

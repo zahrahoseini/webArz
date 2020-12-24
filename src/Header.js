@@ -13,9 +13,9 @@ function Header() {
         let month =months[d.getMonth()];
         let year = d.getFullYear();
 
-        return `${day}, ${date} ${month}, ${year}`
+        return `${day} , ${date} ${month} , ${year}`
     }
-    return (
+    return ( 
         <div className="header">
             <div id="name"> 
             <p id="d1">web arz</p>
@@ -26,10 +26,9 @@ function Header() {
             <div>
                 <p id="update">Today </p>
                 <p id="Dat">{dataBuilder(new Date())}</p>
-            </div>
-        </div>
-        
-    )
+            </div>            
+        </div>   
+  )
 }
 
 export default Header
