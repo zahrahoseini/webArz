@@ -57,7 +57,7 @@ export default function Body( ) {
               .then(
                 (result) => {
                   setArz(result);
-                  console.log(result);          
+                  console.log(result) ;
                 })             
         }
         
