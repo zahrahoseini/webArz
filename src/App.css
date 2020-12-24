@@ -1,0 +1,41 @@
+.App {
+  display: grid;
+  place-items: center;
+  background-color: rgba(255, 255, 255, 0.897);
+  height: 100vh;
+  margin-top: 0;
+}
+
+.app_header {
+  background-image: url('./image/head.png');
+  background-position: top;
+  background-size: cover;
+  height: 30vh;
+  width: 100vw;
+  max-width: 1200px;
+  border-bottom-left-radius:5px ;
+  border-bottom-right-radius:5px;
+}
+
+.app_body {
+  background-color: #f0f0f0d0;
+  height: 100%;
+  width: 100vw;
+  max-width: 1200px;
+ 
+}
+
+.app_footer {
+  background-image: url('./image/head.png');
+  height: 10vh;
+  width: 100vw;
+  max-width: 1200px;
+  bottom: 0;
+}
+@media screen and (max-width : 900px)
+{
+  .App {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
