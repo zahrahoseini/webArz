@@ -59,8 +59,7 @@ export default function Body( ) {
                   setArz(result);
                   console.log(result) ;
                 })             
-        }
-        
+        }        
       }
         
   
@@ -465,7 +464,7 @@ export default function Body( ) {
             {arz.sana.data[0].updated_at}
           </div>
           ) : ('')}
-          
+
       </div>
 
       

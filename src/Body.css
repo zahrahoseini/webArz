@@ -73,6 +73,14 @@ ul{
     background-color: lightblue;
 }
 
+li:nth-child(odd) {
+    border-right: 2px solid green;
+}
+
+li:nth-child(even) {
+    border-right: 2px solid red;
+}
+
 #tittle_list{
     margin-bottom: 20px;
     font-size: small;
