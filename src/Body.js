@@ -454,7 +454,7 @@ export default function Body( ) {
         ) : ('')}
 
        <div className="body_footer">       
-        <div className="Update_botton" >
+       <div className="Update_botton" >
             <IconButton onClick={update} >
             <UpdateIcon />
             </IconButton>        
@@ -465,6 +465,7 @@ export default function Body( ) {
             {arz.sana.data[0].updated_at}
           </div>
           ) : ('')}
+          
       </div>
 
       
